@@ -1,6 +1,6 @@
 {
-  "name": "@eportela/powertools",
-  "version": "0.2.3",
+  "name": "@eportela/apitools",
+  "version": "0.0.0",
   "description": "A powerful tools library",
   "main": "index.js",
   "scripts": {
@@ -9,9 +9,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ezeportela/powertools.git"
+    "url": "git+https://github.com/ezeportela/apitools.git"
   },
   "keywords": [
+    "api",
     "powerful",
     "tools",
     "library"
@@ -19,13 +20,13 @@
   "author": "Ezequiel Portela <eportelab@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ezeportela/powertools/issues"
+    "url": "https://github.com/ezeportela/apitools/issues"
   },
-  "homepage": "https://github.com/ezeportela/powertools#readme",
-  "dependencies": {
-    "express": "^4.17.1"
-  },
+  "homepage": "https://github.com/ezeportela/apitools#readme",
+  "dependencies": {},
   "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-config-google": "^0.14.0",
     "jest": "^24.9.0"
   }
 }

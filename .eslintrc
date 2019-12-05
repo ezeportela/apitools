@@ -1,0 +1,23 @@
+{
+  "extends": ["eslint:recommended", "google"],
+  "parserOptions": {
+    "ecmaVersion": 9
+  },
+  "rules": {
+    "require-jsdoc": 0,
+    "indent": ["error", 2],
+    "max-len": ["error", {
+      "ignoreStrings": true,
+      "ignoreTemplateLiterals": true
+    }]
+  },
+  "env": {
+    "node": true,
+    "es6": true
+  },
+  "globals": {
+    "expect": true,
+    "assert": true,
+    "test": true
+  }
+}
