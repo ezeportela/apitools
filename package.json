@@ -1,6 +1,6 @@
 {
   "name": "@eportela/apitools",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A powerful tools library",
   "main": "index.js",
   "scripts": {
@@ -24,12 +24,12 @@
   },
   "homepage": "https://github.com/ezeportela/apitools#readme",
   "dependencies": {
-    "jwt-decode": "^2.2.0",
-    "moment": "^2.24.0"
+    "jwt-decode": "2.2.0",
+    "moment": "2.24.0"
   },
   "devDependencies": {
-    "eslint": "^6.6.0",
-    "eslint-config-google": "^0.14.0",
-    "jest": "^24.9.0"
+    "eslint": "6.6.0",
+    "eslint-config-google": "0.14.0",
+    "jest": "24.9.0"
   }
 }
